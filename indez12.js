@@ -26,3 +26,24 @@ else if (valor % 3 == 0){
 //clasificarvalor(2);
 //clasificarvalor(15);
 clasificarvalor(5) */
+
+
+
+
+
+function mesesDelYear (mes) {
+    if (mes === "enero") {
+        console.log("si, estamos en el mes de enero");
+    }
+    else if (mes === "febrero"){
+        console.log("si,estamos en el mes de febrero");
+    }
+    else if (mes === "marzo"){
+        console.log("si,estamos en el mes de marzo");
+    }
+    else {
+        console.log("no, estamos en realidad en abril")
+    }
+    }
+
+mesesDelYear("marzo")
